@@ -6,7 +6,8 @@ import Product from '../models/productModel.js'
 // @desc fetch all products 
 // @route GET /api/products
 // @access Public route no tocken needed 
-router.get('/', asyncHandler( async (req,res) =>{
+router.get('/', 
+    asyncHandler( async (req,res) =>{
     const products = await Product.find({})
     res.json(products)
 }))

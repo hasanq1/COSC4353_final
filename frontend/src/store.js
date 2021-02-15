@@ -6,11 +6,11 @@ import { productListReducer, productDetailsReducer, productDeleteReducer, produc
 } from './reducers/productReducers'
 import { cartReducer } from './reducers/cartReducers'
 import { userLoginReducer, userRegisterReducer, userDetailsReducer, userUpdateProfileReducer,
-     userListReducer, userDeleteReducer, userUpdateReducer,
-} from './reducers/userReducers'
+     userListReducer, userDeleteReducer, userUpdateReducer } 
+     from './reducers/userReducers'
 import { orderCreateReducer, orderDetailsReducer, orderPayReducer, 
-    orderDeliverReducer, orderListMyReducer, orderListReducer,
-} from './reducers/orderReducers'
+    orderDeliverReducer, orderListMyReducer, orderListReducer } 
+    from './reducers/orderReducers'
 const reducer = combineReducers({
     productList: productListReducer,
     productDetails: productDetailsReducer,
